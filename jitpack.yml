@@ -1,0 +1,3 @@
+install:
+- FILE="-Dfile=jars/spigot.jar"
+- mvn install:install-file $FILE -DgroupId=com.github.skipdevelopment -DartifactId=pluto-spigot -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
